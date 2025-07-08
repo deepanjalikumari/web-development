@@ -1,0 +1,11 @@
+{
+  "wholeIpInfo": {
+    "bogon": true,
+    "ip": "::ffff:127.0.0.1"
+  },
+  "city": "",
+  "coordinates": [
+    null,
+    null
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "wholeIpInfo": {
+    "ip": "8.8.8.8",
+    "hostname": "dns.google",
+    "city": "Mountain View",
+    "region": "California",
+    "country": "United States",
+    "loc": "37.4056,-122.0775",
+    "org": "AS15169 Google LLC",
+    "postal": "94043",
+    "timezone": "America/Los_Angeles",
+    "anycast": true,
+    "countryCode": "US",
+    "countryFlag": {
+      "emoji": "🇺🇸",
+      "unicode": "U+1F1FA U+1F1F8"
+    },
+    "countryFlagURL": "https://cdn.ipinfo.io/static/images/countries-flags/US.svg",
+    "countryCurrency": {
+      "code": "USD",
+      "symbol": "$"
+    },
+    "continent": {
+      "code": "NA",
+      "name": "North America"
+    },
+    "isEU": false
+  },
+  "city": "Mountain View",
+  "coordinates": [
+    -122.0775,
+    37.4056
+  ]
+}
