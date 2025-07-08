@@ -1,0 +1,262 @@
+2025-05-31 12:10:30 error: ValidationError: "profileImage" is not allowed to be empty
+2025-05-31 12:11:17 error: ValidationError: "profileImage" must be a valid uri
+2025-05-31 12:39:09 error: Error: queryTxt EREFUSED cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-05-31 12:39:17 error: ImageKit Upload Error: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-05-31 12:39:17 error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+    at Object.openSync (node:fs:571:10)
+    at Object.readFileSync (node:fs:452:35)
+    at uploadToImageKit (file:///D:/Web-Development/Projects/Croudly/backend/src/utils/imageKit.util.js:19:27)
+    at signUp (file:///D:/Web-Development/Projects/Croudly/backend/src/controllers/user.controller.js:39:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-31 12:42:30 error: ImageKit Upload Error: Missing fileName parameter for upload
+2025-05-31 12:42:30 error: Upload error Missing fileName parameter for upload
+2025-05-31 12:46:50 error: ImageKit Upload Error: Your account cannot be authenticated.
+2025-05-31 12:46:50 error: Upload error Your account cannot be authenticated.
+2025-06-04 10:15:39 error: ValidationError: "lastname" is not allowed
+2025-06-04 10:57:28 error: Token not found
+2025-06-04 10:58:34 error: Error: Access denied. Admins only.
+    at new ApiError (file:///D:/Web-Development/Projects/Croudly/backend/src/utils/apiError.util.js:6:11)
+    at isAdmin (file:///D:/Web-Development/Projects/Croudly/backend/src/middlewares/isAdmin.middleware.js:21:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 11:10:50 error: Error: Access denied. Admins only.
+    at new ApiError (file:///D:/Web-Development/Projects/Croudly/backend/src/utils/apiError.util.js:6:11)
+    at isAdmin (file:///D:/Web-Development/Projects/Croudly/backend/src/middlewares/isAdmin.middleware.js:21:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 11:45:16 error: Token not found
+2025-06-04 17:42:19 error: User not found with this email or phone number
+2025-06-04 17:42:40 error: User not found with this email or phone number
+2025-06-04 17:46:52 error: Error: Forbidden
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\@sendgrid\client\src\classes\client.js:167:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 17:49:00 error: Error: Forbidden
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\@sendgrid\client\src\classes\client.js:167:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 17:49:34 error: Error: Forbidden
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\@sendgrid\client\src\classes\client.js:167:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 17:51:36 error: Error: Forbidden
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\@sendgrid\client\src\classes\client.js:167:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 17:53:11 error: Error: Forbidden
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\@sendgrid\client\src\classes\client.js:167:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 17:54:54 error: Error: Forbidden
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\@sendgrid\client\src\classes\client.js:167:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 17:55:34 error: Error: Forbidden
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\@sendgrid\client\src\classes\client.js:167:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 17:55:50 error: Error: Forbidden
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\@sendgrid\client\src\classes\client.js:167:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-04 18:23:59 error: Incorrect password
+2025-06-04 18:26:49 error: Incorrect password
+2025-06-04 18:26:53 error: Incorrect password
+2025-06-04 18:27:43 error: Incorrect password
+2025-06-04 18:27:51 error: Incorrect password
+2025-06-05 12:42:06 error: User not found
+2025-06-05 12:58:23 error: ValidationError: "images" is required
+2025-06-05 13:01:38 error: ValidationError: "images" is required
+2025-06-05 13:02:32 error: ReferenceError: error is not defined
+    at userReverseGeoCoding (file:///D:/Web-Development/Projects/Croudly/backend/src/middlewares/location.middleare.js:80:18)
+    at createListing (file:///D:/Web-Development/Projects/Croudly/backend/src/controllers/listing.models.js:40:27)
+2025-06-05 13:02:32 error: Error: Not able to fetch user addresss
+    at new ApiError (file:///D:/Web-Development/Projects/Croudly/backend/src/utils/apiError.util.js:6:11)
+    at userReverseGeoCoding (file:///D:/Web-Development/Projects/Croudly/backend/src/middlewares/location.middleare.js:105:11)
+    at createListing (file:///D:/Web-Development/Projects/Croudly/backend/src/controllers/listing.models.js:40:27)
+2025-06-05 13:07:01 error: ValidationError: Listing validation failed: location: Cast to string failed for value "{
+  address: '905, West Middlefield Road, Mountain View, Santa Clara County, California, 94043, USA',
+  city: 'Mountain View',
+  state: 'California',
+  country: 'United States of America',
+  raw: {
+    place_id: '330638918409',
+    licence: 'https://locationiq.com/attribution',
+    lat: '37.405555',
+    lon: '-122.077473',
+    display_name: '905, West Middlefield Road, Mountain View, Santa Clara County, California, 94043, USA',
+    boundingbox: [ '37.405555', '37.405555', '-122.077473', '-122.077473' ],
+    importance: 0.225,
+    address: {
+      house_number: '905',
+      road: 'West Middlefield Road',
+      city: 'Mountain View',
+      county: 'Santa Clara County',
+      state: 'California',
+      postcode: '94043',
+      country: 'United States of America',
+      country_code: 'us'
+    }
+  }
+}" (type Object) at path "location"
+    at Document.invalidate (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at model.$set (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:1480:12)
+    at model.$set (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:1132:16)
+    at model.Document (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\model.js:127:12)
+    at new model (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\model.js:4807:15)
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\model.js:2757:20
+    at Array.map (<anonymous>)
+    at Function.create (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\model.js:2745:34)
+    at createListing (file:///D:/Web-Development/Projects/Croudly/backend/src/controllers/listing.models.js:65:35)
+2025-06-05 13:09:13 error: ValidationError: Listing validation failed: location: Path `location` is required.
+    at Document.invalidate (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:3104:17
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-06-05 13:10:10 error: ValidationError: Listing validation failed: location: Path `location` is required.
+    at Document.invalidate (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:3104:17
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-06-05 13:13:14 error: ValidationError: Listing validation failed: location: Path `location` is required.
+    at Document.invalidate (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:3104:17
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-06-05 13:13:50 error: ValidationError: Listing validation failed: location: Path `location` is required.
+    at Document.invalidate (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\document.js:3104:17
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-06-05 16:04:02 error: ValidationError: "images" is required
+2025-06-05 16:04:42 error: ValidationError: "images" is required
+2025-06-05 16:05:13 error: ValidationError: "images" is required
+2025-06-05 16:05:42 error: ValidationError: "images" is required
+2025-06-05 16:09:29 error: ValidationError: "images" is required
+2025-06-05 16:10:29 error: ValidationError: "images" is required
+2025-06-05 16:14:05 error: ValidationError: "images" is required
+2025-06-05 16:20:02 error: ValidationError: "images" is required
+2025-06-05 17:39:33 error: JsonWebTokenError: invalid signature
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (D:\Web-Development\Projects\Croudly\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (D:\Web-Development\Projects\Croudly\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJwt (file:///D:/Web-Development/Projects/Croudly/backend/src/middlewares/authentication.middleware.js:23:25)
+    at Layer.handleRequest (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Web-Development\Projects\Croudly\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\router\index.js:295:15
+2025-06-05 17:40:13 error: ValidationError: "location.address" is not allowed
+2025-06-05 17:40:49 error: ValidationError: "location.address" is not allowed
+2025-06-05 18:48:58 error: Token not found
+2025-06-06 11:48:23 error: ReferenceError: error is not defined
+    at userReverseGeoCoding (file:///D:/Web-Development/Projects/Croudly/backend/src/middlewares/location.middleare.js:78:18)
+    at getNearByListing (file:///D:/Web-Development/Projects/Croudly/backend/src/controllers/listing.controller.js:334:29)
+2025-06-06 11:48:23 error: Error
+    at getNearByListing (file:///D:/Web-Development/Projects/Croudly/backend/src/controllers/listing.controller.js:338:16)
+2025-06-06 11:48:42 error: ReferenceError: error is not defined
+    at userReverseGeoCoding (file:///D:/Web-Development/Projects/Croudly/backend/src/middlewares/location.middleare.js:78:18)
+    at getNearByListing (file:///D:/Web-Development/Projects/Croudly/backend/src/controllers/listing.controller.js:334:29)
+2025-06-06 11:48:42 error: Error
+    at getNearByListing (file:///D:/Web-Development/Projects/Croudly/backend/src/controllers/listing.controller.js:338:16)
+2025-06-06 12:41:20 error: Token not found
+2025-06-14 10:19:19 error: Error
+    at createExperienceRoom (file:///D:/Web-Development/Projects/Croudly/backend/src/controllers/room.controller.js:16:14)
+    at file:///D:/Web-Development/Projects/Croudly/backend/src/utils/asyncHandler.util.js:2:19
+    at Layer.handleRequest (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\route.js:157:13)
+    at verifyJwt (file:///D:/Web-Development/Projects/Croudly/backend/src/middlewares/authentication.middleware.js:37:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-06-14 10:34:11 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-14 10:34:14 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-14 10:34:17 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-14 11:56:39 error: ImageKit Upload Error: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-14 11:56:39 error: Upload error The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-14 11:56:39 error: ImageKit Upload Error: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-14 11:56:39 error: Upload error The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-14 11:58:12 error: Upload error The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-14 11:58:14 error: Upload error The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-14 11:59:07 error: Upload error The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-14 11:59:18 error: Upload error The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-14 12:04:02 error: Upload error The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-14 12:05:56 error: Upload error The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+2025-06-24 11:31:24 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:31:41 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:32:22 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:32:49 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:33:06 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:33:22 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:34:00 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:34:25 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:34:33 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:34:54 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:35:11 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:35:49 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:36:13 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:39:57 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:40:44 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:41:02 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:41:13 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:41:25 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:41:52 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:42:05 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:42:18 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:43:09 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:43:16 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:44:02 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 11:44:57 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 12:38:59 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 12:49:44 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-24 12:50:03 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-27 11:38:14 error: ValidationError: "images" is required
+2025-06-27 11:39:14 error: MongooseServerSelectionError: Server selection timed out after 30000 ms
+    at _handleConnectionErrors (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\connection.js:1165:11)
+    at NativeConnection.openUri (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\connection.js:1096:11)
+    at async connectToDataBase (D:\Web-Development\Projects\Croudly\backend\src\database\index.ts:17:24)
+2025-06-27 11:40:09 error: MongooseServerSelectionError: Server selection timed out after 30000 ms
+    at _handleConnectionErrors (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\connection.js:1165:11)
+    at NativeConnection.openUri (D:\Web-Development\Projects\Croudly\backend\node_modules\mongoose\lib\connection.js:1096:11)
+    at async connectToDataBase (D:\Web-Development\Projects\Croudly\backend\src\database\index.ts:17:24)
+2025-06-27 11:58:28 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-27 11:59:28 error: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.kez1ma6.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:291:17)
+2025-06-27 12:31:55 error: ValidationError: "images" is required
+2025-06-27 12:33:45 error: ValidationError: "images" is required
+2025-06-27 12:34:16 error: ValidationError: "images" is required
+2025-06-27 19:16:58 error: ValidationError: "images" is required
+2025-06-27 19:41:56 error: TokenExpiredError: jwt expired
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\Web-Development\Projects\Croudly\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (D:\Web-Development\Projects\Croudly\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJwt (D:\Web-Development\Projects\Croudly\backend\src\middlewares\authentication.middleware.ts:31:25)
+    at Layer.handleRequest (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\Web-Development\Projects\Croudly\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\Web-Development\Projects\Croudly\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\Web-Development\Projects\Croudly\backend\node_modules\router\index.js:295:15

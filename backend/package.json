@@ -1,0 +1,41 @@
+{
+  "name": "resell",
+  "version": "1.0.0",
+  "description": "This is the backend for the resell website ",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts,json --exec ts-node src/index.ts"
+  },
+  "author": "Harshit Singh Parihar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/mongoose": "^5.11.96",
+    "@types/multer": "^1.4.13",
+    "@types/node": "^24.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.10",
+    "tpc": "^0.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "axios": "^1.9.0",
+    "bcrypt": "^6.0.0",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "imagekit": "^6.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
+    "multer": "^2.0.0",
+    "node-ipinfo": "^4.0.1",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  }
+}
